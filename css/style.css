@@ -370,6 +370,9 @@ h1, h2, h3, h4, h5, h6 {
   -ms-flex-pack: center;
   justify-content: center; }
 
+.fill__sprite-bg:hover {
+  fill: #CD6326; }
+
 .header {
   background-image: url(../image/header_bg.jpg);
   background-repeat: no-repeat;
@@ -618,3 +621,65 @@ h1, h2, h3, h4, h5, h6 {
       -ms-flex-pack: center;
       justify-content: center;
       outline: none; }
+
+.footer {
+  background-color: #181617;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: url(../image/bg_footer.jpg);
+  background-repeat: no-repeat;
+  background-position: center; }
+  .footer__inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 132px;
+    margin-bottom: 150px; }
+  .footer__nav {
+    display: block;
+    width: 532px;
+    padding-top: 20px;
+    padding-right: 43px; }
+    .footer__nav-list {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .footer__nav-list__link {
+        color: #F7F7F7;
+        font-size: 23px;
+        padding: 10px; }
+        .footer__nav-list__link:hover {
+          border: 2px solid #CD6326;
+          border-radius: 5px; }
+  .footer__social {
+    width: 240px;
+    padding-top: 28px; }
+    .footer__social-list {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      padding: 0;
+      margin: 0; }
+    .footer__social-item:hover {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+      -webkit-transition: 0.3s;
+      -o-transition: 0.3s;
+      transition: 0.3s; }
