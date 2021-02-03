@@ -526,6 +526,25 @@ h1, h2, h3, h4, h5, h6 {
         -webkit-transition: 0.3s;
         -o-transition: 0.3s;
         transition: 0.3s; }
+    .latest__slider-inner {
+      position: absolute;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      text-align: center;
+      top: 70%;
+      left: 19%; }
+      .latest__slider-inner__title {
+        font-size: 22px;
+        color: #F7F7F7;
+        margin-bottom: 20px; }
+      .latest__slider-inner__subtitle {
+        font-size: 17px;
+        color: #F7F7F7; }
     .latest__slider-btn__prev {
       margin-right: 30px; }
     .latest__slider-contanier {
@@ -540,6 +559,7 @@ h1, h2, h3, h4, h5, h6 {
       -o-transition: .5s;
       transition: .5s; }
     .latest__slider-item {
+      position: relative;
       margin: 0 30px 0 30px; }
       .latest__slider-item:hover {
         -webkit-transform: scale(1.1);
@@ -548,3 +568,53 @@ h1, h2, h3, h4, h5, h6 {
         -webkit-transition: 0.4s;
         -o-transition: 0.4s;
         transition: 0.4s; }
+
+.notified {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 120px; }
+  .notified__title {
+    font-size: 27px;
+    font-weight: normal;
+    color: #333333;
+    margin-bottom: 60px; }
+  .notified__form {
+    width: 660px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 7px 0 240px 0; }
+    .notified__form-input {
+      width: 540px;
+      padding: 15px;
+      font-size: 23px;
+      font-weight: normal;
+      color: #333333;
+      background: none;
+      border: 1px solid #666666;
+      outline: none;
+      border-right: none; }
+    .notified__form-submit {
+      border-radius: 0 5px 5px 0;
+      border: 1px solid #CD6326;
+      width: 120px;
+      height: 60px;
+      font-size: 23px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      outline: none; }
